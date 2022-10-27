@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:login_homepage/home_page.dart';
 
-class LoginPage extends StatelessWidget {
-  const LoginPage({Key? key}) : super(key: key);
+class LoginScreen extends StatelessWidget {
+  const LoginScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -68,14 +68,14 @@ class LoginPage extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(100),
                   gradient:
-                  const LinearGradient(colors: [Colors.green, Colors.teal]),
+                      const LinearGradient(colors: [Colors.green, Colors.teal]),
                 ),
                 child: MaterialButton(
                   onPressed: () {
                     Navigator.push(context,
                         MaterialPageRoute(builder: (context) {
-                          return const HomePage();
-                        }));
+                      return const HomePage();
+                    }));
                   },
                   child: const Text(
                     "LOGIN",
@@ -114,5 +114,6 @@ class LoginPage extends StatelessWidget {
     );
   }
 }
+
 
 //Andro Edsarev S. Villariez

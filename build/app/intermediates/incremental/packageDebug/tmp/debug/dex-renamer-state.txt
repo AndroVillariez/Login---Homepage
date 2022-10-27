@@ -1,0 +1,4 @@
+#Tue Oct 25 23:45:40 SGT 2022
+base.0=C\:\\Users\\Andro Villariez\\login_homepage\\flutter_login_homepage\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

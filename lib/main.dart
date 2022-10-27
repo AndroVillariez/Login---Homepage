@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_homepage/login_page.dart';
 
 void main() => runApp(const LoginPage());
 
@@ -20,9 +21,10 @@ class LoginPage extends StatelessWidget {
               "Welcome! Please sign in",
             ),
           ),
-          body: const LoginPage()),
+          body: const LoginScreen()),
     );
   }
 }
+
 
 //Andro Edsarev S. Villariez
